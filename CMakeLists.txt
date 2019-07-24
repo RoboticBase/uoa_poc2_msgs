@@ -55,6 +55,7 @@ add_message_files(
   r_angle.msg
   r_battery.msg
   r_command.msg
+  r_result.msg
 )
 
 ## Generate services in the 'srv' folder
