@@ -50,12 +50,17 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  r_state.msg
-  r_pose.msg
   r_angle.msg
+  r_angle_optional.msg
   r_battery.msg
   r_command.msg
+  r_current_optional.msg
+  r_emergency_command.msg
+  r_emergency_result.msg
+  r_pose.msg
+  r_pose_optional.msg
   r_result.msg
+  r_state.msg
 )
 
 ## Generate services in the 'srv' folder
